@@ -164,22 +164,27 @@
 						<div class="card-body">
 							<form id="open-regular-form" class="open-form tab-item" data-tab="open-regular">
 								<div class="input-group pb-2">
+									<h4 class="w-100 text-center" tkey="top-title"></h4>
+								</div>
+								<div class="input-group pb-2">
 									<input id="open-email" name="open-email" class="form-control" type="text" tkey="email-address">
 								</div>
-								<div class="input-group">
+								<div class="input-group pb-2">
 									<input id="open-password" name="open-password" class="form-control" type="password" tkey="password">
+								</div>
+								<div class="input-group pb-3">
 									<input id="open-password-confirm" name="open-password-confirm" class="form-control" type="password" tkey="password-confirm">
-									<div class="input-group-append">
-										<button class="btn btn-outline-dark b-width" type="submit" id="open-regular-wallet" tkey="open"></button>
-									</div>
+								</div>
+								<div class="input-group pb-2">
+									<button class="btn btn-outline-dark w-100" type="submit" id="open-regular-wallet" tkey="open"></button>
 								</div>
 							</form>
 							<form id="open-key-form" class="open-form tab-item d-none" data-tab="open-key">
-								<div class="input-group">
+								<div class="input-group pb-3">
 									<input id="passphrase" name="passphrase" class="form-control" type="password" tkey="wif-key">
-									<div class="input-group-append">
-										<button class="btn btn-outline-dark b-width" type="submit" id="open-key-wallet" tkey="open"></button>
-									</div>
+								</div>
+								<div class="input-group pb-2">
+									<button class="btn btn-outline-dark w-100" type="submit" id="open-key-wallet" tkey="open"></button>
 								</div>
 							</form>
 						</div>
